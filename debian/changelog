@@ -1,0 +1,5 @@
+stendhal-webstart (1.1) xenial; urgency=high (old webstart URL is obsolete)
+
+  * Updated for new remote webstart URL
+
+ -- Jordan Irwin <antumdeluge@gmail.com>  Fri, 09 Sep 2016 02:28:18 -0700
