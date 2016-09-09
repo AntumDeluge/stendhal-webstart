@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Stendhal Webstart
+Comment=A 2-dimensional fantasy multiplayer online role-playing game
+Icon=stendhal-webstart
+Exec=stendhalws
+Type=Application
+Terminal=false
+StartupNotify=true
+Categories=Game;Java;
