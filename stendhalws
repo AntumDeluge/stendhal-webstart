@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # This script requires a Java virtual machine version 6 or higher and
 # a Java webstart (javaws) application.
@@ -34,6 +34,14 @@
 # the Free Software Foundation; either version 2 of the License, or
 # (at your option) any later version.
 # ---
+
+VERSION=1.1
+ARG=$1
+
+if [ "${ARG}" == "--version" -o "${ARG}" == "-v" ]; then
+	echo "${VERSION}";
+	exit 0;
+fi
 
 set_webstart() {
   webstart=$(command -v $1 2>&1 /dev/null)
