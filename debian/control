@@ -3,7 +3,7 @@ Section: games
 Priority: optional
 Maintainer: Jordan Irwin <antumdeluge@gmail.com>
 Build-Depends: debhelper (>=9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://stendhalgame.org/
 
 Package: stendhal-webstart
