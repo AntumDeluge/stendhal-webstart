@@ -1,1 +1,6 @@
-/.project
+.project
+debian/stendhal-webstart
+debian/files
+debian/debhelper-build-stamp
+debian/stendhal-webstart.debhelper.log
+debian/stendhal-webstart.substvars
